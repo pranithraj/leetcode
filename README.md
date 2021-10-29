@@ -1,2 +1,2 @@
-# leetcode
-This repo has all the leetcode problems that I solve. . .
+# Leetcode
+This repo has all the leetcode problems that I solve.
