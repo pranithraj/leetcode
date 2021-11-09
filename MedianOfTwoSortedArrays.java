@@ -1,5 +1,3 @@
-package leetcode;
-
 /* https://leetcode.com/problems/median-of-two-sorted-arrays */
 
 class MedianOfTwoSortedArrays {
