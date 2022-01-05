@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/subarray-sum-equals-k/
-class Solution {
+class SubarraySum {
     public int subarraySum(int[] nums, int k) {
         int count = 0, sum = 0;
         Map<Integer, Integer> sumMap = new HashMap<>();
