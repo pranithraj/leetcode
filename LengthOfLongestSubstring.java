@@ -16,3 +16,22 @@ class LengthOfLongestSubstring {
       return maxCount;
  }
 }
+
+/* class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        HashSet<Character> characters = new HashSet<>();
+    int i = 0, j = 0, max = 0;
+
+    while (j < s.length()) {
+      if (!characters.contains(s.charAt(j))) {
+        characters.add(s.charAt(j));
+        j++;
+        max = Math.max(characters.size(), max);
+      } else {
+        characters.remove(s.charAt(i));
+        i++;
+      }
+    }
+    return max;
+    }
+} */
